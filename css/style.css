@@ -2,7 +2,7 @@ body{
     font-family: Montserrat;
 
     max-width: 1200px;
-    margin: 0 auto 32px auto;    
+    margin: 0 auto;    
     padding: 0 16px;
 }
     .wrapper{
@@ -73,7 +73,7 @@ body{
                         color: #A8A8A8;
                     }
                     .workExperience > div > ul{
-                        padding-left: 24px;
+                        padding-left: 16px;
                     }
                     .workExperience > div > ul > li{
                         padding: 4px 0;
@@ -97,6 +97,8 @@ body{
                 .education > p:last-child{
                     font-size: 12px;
                     font-weight: 400;
+
+                    margin-bottom: 32px;
 
                     color: #A8A8A8;
                 }
@@ -134,8 +136,8 @@ body{
                     line-height: 24px;
                 }
                 /* Remove mergin from lists */
-                .sideBarTextContent > div > ul{
-                    padding-left: 24px;
+                .UL{
+                    padding-left: 16px;
                 }
 
 /* ASSETS */
